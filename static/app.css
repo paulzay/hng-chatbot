@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+nav {
+  padding: 20px 0;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav svg {
+  width: 100%;
+}
+
+h1 {
+  color: #ff5100;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  color: #ff5100;
+  font-size: 20px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#chatbox {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+}
+
+#userInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+}
+
+#textInput {
+  width: 87%;
+  border: none;
+  border-bottom: 3px solid #00aeff;
+  font-size: 17px;
+}
+
+#buttonInput {
+  padding: 3px;
+  font-size: 17px;
+}
+
+.userText {
+  color: white;
+  font-size: 17px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.userText span {
+  background-color: #00aeff;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.botText {
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.botText span {
+  background-color: #ff5100;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#tidbit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background-color: #00aeff;
+  font-size: 18px;
+  color: #fff;
+  border: 0;
+  width: 60px;
+}
+
+footer {
+  background-color: #00aeff;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 0;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+footer .fright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fright svg {
+  margin-left: 20px;
+}
+
+.fleft p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.images img {
+  width: 100%;
+}
+/*# sourceMappingURL=app.css.map */
