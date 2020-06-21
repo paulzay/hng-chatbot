@@ -1,5 +1,5 @@
 appdirs==1.4.3
-apturl==0.5.2
+# apturl==0.5.2
 asn1crypto==0.24.0
 autoenv==1.0.0
 blinker==1.4
