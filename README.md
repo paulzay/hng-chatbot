@@ -42,7 +42,7 @@ $ python3 -m venv env
 $ source env/bin/activate
 
 # Install the dependencies
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 
 # Start the server
 $ flask run
